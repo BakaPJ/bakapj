@@ -520,6 +520,5 @@ def main():
         file_name="products_history_filtered.csv",
         mime="text/csv",
     )
-
 if __name__ == "__main__":
     main()
