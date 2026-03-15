@@ -230,7 +230,6 @@ def main():
         file_name="products_history_filtered.csv",
         mime="text/csv",
     )
-    (
 
 DATA_FILE = Path("products_history.json")
 VAT_RATE = 0.20
