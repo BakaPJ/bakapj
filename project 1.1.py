@@ -230,16 +230,7 @@ def main():
         file_name="products_history_filtered.csv",
         mime="text/csv",
     )
-
-if __name__ == "__main__":
-    # app.py
-import streamlit as st
-import pandas as pd
-import datetime as dt
-import threading
-import time
-import json
-from pathlib import Path
+    (
 
 DATA_FILE = Path("products_history.json")
 VAT_RATE = 0.20
